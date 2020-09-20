@@ -10283,27 +10283,27 @@ Source: AVX .. aphvc.pdf</description>
 <variantdefs>
 </variantdefs>
 <classes>
-<class number="0" name="default" width="0" drill="0">
+<class number="0" name="default" width="0.6096" drill="0">
 </class>
 </classes>
 <parts>
 <part name="IC101" library="ic-package" deviceset="DIL16" device="S" value="MAX232ECSE">
-<attribute name="REICHELT" value="GS 16P"/>
+<attribute name="OC_REICHELT" value="GS 16P"/>
 </part>
 <part name="JP102" library="ic-package" deviceset="DIL16" device="S" value="Raincenter">
 <attribute name="MF" value="ASSMANN"/>
 <attribute name="MPN" value="AR-16-ST/T"/>
-<attribute name="REICHELT" value="AR 16"/>
+<attribute name="OC_REICHELT" value="AR 16"/>
 </part>
 <part name="P+1" library="supply1" deviceset="+5V" device=""/>
 <part name="FRAME3" library="frames" deviceset="DINA4_L" device="" value="Raincenter_MAX232_Adapter"/>
 <part name="C102" library="rcl" deviceset="CPOL-EU" device="E2.5-6" value="1µF/100V">
-<attribute name="REICHELT" value="RAD 105 1,0/100"/>
+<attribute name="OC_REICHELT" value="RAD 105 1,0/100"/>
 </part>
 <part name="P+3" library="supply1" deviceset="+5V" device=""/>
 <part name="C101" library="rcl" deviceset="C-EU" device="025-024X044" value="100nF/50V">
 <attribute name="MN" value="Murata"/>
-<attribute name="REICHELT" value="X7R-2,5 100N"/>
+<attribute name="OC_REICHELT" value="X7R-2,5 100N"/>
 </part>
 <part name="JP101" library="Klemmen" deviceset="256-101" device=""/>
 <part name="GND2" library="supply1" deviceset="GNDINT" device=""/>
@@ -10325,10 +10325,10 @@ Trennung verwendet.
 </plain>
 <instances>
 <instance part="IC101" gate="G$1" x="109.22" y="111.76">
-<attribute name="REICHELT" x="109.22" y="111.76" size="5.08" layer="96" display="off"/>
+<attribute name="OC_REICHELT" x="109.22" y="111.76" size="5.08" layer="96" display="off"/>
 </instance>
 <instance part="JP102" gate="G$1" x="109.22" y="76.2">
-<attribute name="REICHELT" x="109.22" y="76.2" size="5.08" layer="96" display="off"/>
+<attribute name="OC_REICHELT" x="109.22" y="76.2" size="5.08" layer="96" display="off"/>
 <attribute name="MF" x="109.22" y="76.2" size="5.08" layer="96" display="off"/>
 <attribute name="MPN" x="109.22" y="76.2" size="5.08" layer="96" display="off"/>
 </instance>
@@ -10336,14 +10336,14 @@ Trennung verwendet.
 <instance part="FRAME3" gate="G$1" x="0" y="0"/>
 <instance part="FRAME3" gate="G$2" x="162.56" y="0"/>
 <instance part="C102" gate="G$1" x="142.24" y="134.62" smashed="yes">
-<attribute name="REICHELT" x="142.24" y="134.62" size="5.08" layer="96" display="off"/>
+<attribute name="OC_REICHELT" x="142.24" y="134.62" size="5.08" layer="96" display="off"/>
 <attribute name="NAME" x="140.843" y="140.1826" size="1.778" layer="95"/>
 <attribute name="VALUE" x="144.2974" y="115.443" size="1.778" layer="96" rot="R90"/>
 </instance>
 <instance part="P+3" gate="1" x="137.16" y="144.78"/>
 <instance part="C101" gate="G$1" x="149.86" y="134.62" smashed="yes">
 <attribute name="MN" x="149.86" y="134.62" size="5.08" layer="96" display="off"/>
-<attribute name="REICHELT" x="149.86" y="134.62" size="5.08" layer="96" display="off"/>
+<attribute name="OC_REICHELT" x="149.86" y="134.62" size="5.08" layer="96" display="off"/>
 <attribute name="NAME" x="148.844" y="140.081" size="1.778" layer="95"/>
 <attribute name="VALUE" x="152.019" y="115.824" size="1.778" layer="96" rot="R90"/>
 </instance>

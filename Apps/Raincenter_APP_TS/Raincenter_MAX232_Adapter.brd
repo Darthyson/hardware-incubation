@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="1" unitdist="mm" unit="mm" style="lines" multiple="1" display="yes" altdistance="12.5" altunitdist="mil" altunit="mil"/>
+<grid distance="25" unitdist="mil" unit="mil" style="lines" multiple="1" display="yes" altdistance="12.5" altunitdist="mil" altunit="mil"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="no" active="no"/>
@@ -46,20 +46,20 @@
 <layer number="36" name="bGlue" color="7" fill="5" visible="no" active="yes"/>
 <layer number="37" name="tTest" color="7" fill="1" visible="no" active="yes"/>
 <layer number="38" name="bTest" color="7" fill="1" visible="no" active="yes"/>
-<layer number="39" name="tKeepout" color="4" fill="11" visible="yes" active="yes"/>
-<layer number="40" name="bKeepout" color="1" fill="11" visible="yes" active="yes"/>
-<layer number="41" name="tRestrict" color="4" fill="10" visible="yes" active="yes"/>
-<layer number="42" name="bRestrict" color="1" fill="10" visible="yes" active="yes"/>
-<layer number="43" name="vRestrict" color="2" fill="10" visible="yes" active="yes"/>
+<layer number="39" name="tKeepout" color="4" fill="11" visible="no" active="yes"/>
+<layer number="40" name="bKeepout" color="1" fill="11" visible="no" active="yes"/>
+<layer number="41" name="tRestrict" color="4" fill="10" visible="no" active="yes"/>
+<layer number="42" name="bRestrict" color="1" fill="10" visible="no" active="yes"/>
+<layer number="43" name="vRestrict" color="2" fill="10" visible="no" active="yes"/>
 <layer number="44" name="Drills" color="7" fill="1" visible="no" active="yes"/>
 <layer number="45" name="Holes" color="7" fill="1" visible="no" active="yes"/>
-<layer number="46" name="Milling" color="3" fill="1" visible="yes" active="yes"/>
+<layer number="46" name="Milling" color="3" fill="1" visible="no" active="yes"/>
 <layer number="47" name="Measures" color="7" fill="1" visible="no" active="yes"/>
-<layer number="48" name="Document" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="49" name="Reference" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="48" name="Document" color="7" fill="1" visible="no" active="yes"/>
+<layer number="49" name="Reference" color="7" fill="1" visible="no" active="yes"/>
 <layer number="50" name="dxf" color="7" fill="1" visible="no" active="no"/>
-<layer number="51" name="tDocu" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="52" name="bDocu" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="51" name="tDocu" color="7" fill="1" visible="no" active="yes"/>
+<layer number="52" name="bDocu" color="7" fill="1" visible="no" active="yes"/>
 <layer number="53" name="tGND_GNDA" color="7" fill="9" visible="no" active="no"/>
 <layer number="54" name="bGND_GNDA" color="1" fill="9" visible="no" active="no"/>
 <layer number="56" name="wert" color="7" fill="1" visible="no" active="no"/>
@@ -71,42 +71,6 @@
 <layer number="96" name="Values" color="7" fill="1" visible="no" active="no"/>
 <layer number="97" name="Info" color="7" fill="1" visible="no" active="no"/>
 <layer number="98" name="Guide" color="6" fill="1" visible="no" active="no"/>
-<layer number="100" name="Muster" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="101" name="Patch_Top" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="102" name="bot_pads" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="103" name="Stiffner" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="104" name="S_DOKU" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="105" name="Beschreib" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="106" name="BGA-Top" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="107" name="BD-Top" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="108" name="tBridges" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="109" name="tBPL" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="110" name="bBPL" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="111" name="MPL" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="112" name="tSilk" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="116" name="Patch_BOT" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="121" name="sName" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="122" name="_bPlace" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="125" name="_tNames" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="126" name="_bNames" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="127" name="_tValues" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="128" name="_bValues" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="144" name="Drill_legend" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="151" name="HeatSink" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="152" name="_bDocu" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="199" name="Contour" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="200" name="200bmp" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="201" name="201bmp" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="202" name="202bmp" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="203" name="203bmp" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="204" name="204bmp" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="205" name="205bmp" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="231" name="Eagle3D_PG1" color="14" fill="1" visible="yes" active="yes"/>
-<layer number="248" name="Housing" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="249" name="Edge" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="250" name="Descript" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="251" name="SMDround" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="254" name="OrgLBR" color="7" fill="1" visible="yes" active="yes"/>
 </layers>
 <board>
 <plain>
@@ -1328,7 +1292,7 @@ grid 2.5 mm, outline 2.4 x 4.4 mm</description>
 <variantdefs>
 </variantdefs>
 <classes>
-<class number="0" name="default" width="0" drill="0">
+<class number="0" name="default" width="0.6096" drill="0">
 </class>
 </classes>
 <designrules name="aisler_2_layer *">
@@ -1509,32 +1473,34 @@ design rules under a new name.</description>
 </autorouter>
 <elements>
 <element name="IC101" library="ic-package" package="SOCKET-16" value="MAX232ECSE" x="16.51" y="7.62" smashed="yes">
-<attribute name="REICHELT" value="GS 16P" x="16.51" y="7.62" size="1.778" layer="27" display="off"/>
+<attribute name="OC_REICHELT" value="GS 16P" x="16.51" y="7.62" size="1.778" layer="27" display="off"/>
 <attribute name="VALUE" x="28.575" y="2.54" size="1.27" layer="27" ratio="10" rot="R90"/>
 <attribute name="NAME" x="6.477" y="12.954" size="0.8128" layer="25" ratio="10"/>
 </element>
 <element name="JP102" library="ic-package" package="SOCKET-16" value="Raincenter" x="16.51" y="5.08" smashed="yes" rot="MR180">
-<attribute name="REICHELT" value="AR 16" x="16.51" y="5.08" size="1.778" layer="28" rot="MR180" display="off"/>
+<attribute name="OC_REICHELT" value="AR 16" x="16.51" y="5.08" size="1.778" layer="28" rot="MR180" display="off"/>
 <attribute name="MF" value="ASSMANN" x="16.51" y="5.08" size="1.778" layer="28" rot="MR180" display="off"/>
 <attribute name="MPN" value="AR-16-ST/T" x="16.51" y="5.08" size="1.778" layer="28" rot="MR180" display="off"/>
 <attribute name="VALUE" x="27.305" y="0" size="1.27" layer="28" ratio="10" rot="MR90"/>
-<attribute name="NAME" x="4.8895" y="5.1435" size="0.8128" layer="26" ratio="10" rot="MR180"/>
+<attribute name="NAME" x="14.8895" y="6.1435" size="0.8128" layer="26" ratio="10" rot="MR180"/>
 </element>
 <element name="C102" library="rcl" package="E2,5-6" value="1µF/100V" x="3.175" y="6.35" smashed="yes" rot="R180">
-<attribute name="REICHELT" value="RAD 105 1,0/100" x="3.175" y="6.35" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="NAME" x="6.223" y="9.271" size="0.8128" layer="25" ratio="10" rot="R180"/>
+<attribute name="OC_REICHELT" value="RAD 105 1,0/100" x="3.175" y="6.35" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="NAME" x="4.318" y="8.3185" size="0.8128" layer="25" ratio="10" rot="R180"/>
 <attribute name="VALUE" x="0.508" y="9.017" size="1.27" layer="27" ratio="10" rot="R180"/>
 </element>
 <element name="C101" library="rcl" package="C025-024X044" value="100nF/50V" x="3.175" y="1.905" smashed="yes" rot="R180">
 <attribute name="MN" value="Murata" x="3.175" y="1.905" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="REICHELT" value="X7R-2,5 100N" x="3.175" y="1.905" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="OC_REICHELT" value="X7R-2,5 100N" x="3.175" y="1.905" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="NAME" x="6.223" y="0.762" size="0.8128" layer="25" ratio="10" rot="R90"/>
 <attribute name="VALUE" x="4.953" y="4.572" size="1.27" layer="27" ratio="10" rot="R180"/>
 </element>
-<element name="JP101" library="Klemmen" package="255-401-5" value="256-101" x="33.02" y="6.35">
+<element name="JP101" library="Klemmen" package="255-401-5" value="256-101" x="33.02" y="6.35" smashed="yes">
 <attribute name="MN" value="WAGO" x="33.02" y="6.35" size="1.778" layer="27" display="off"/>
 <attribute name="CONRAD" value="1x730366 + 1x730378" x="33.02" y="6.35" size="1.778" layer="27" display="off"/>
 <attribute name="MPN" value="1x 256-101 + 1x 256-100" x="33.02" y="6.35" size="1.778" layer="27" display="off"/>
+<attribute name="NAME" x="33.485" y="8.495" size="1.27" layer="25" rot="R90"/>
+<attribute name="VALUE" x="36.92" y="0.6" size="1.27" layer="27" rot="R90"/>
 </element>
 </elements>
 <signals>

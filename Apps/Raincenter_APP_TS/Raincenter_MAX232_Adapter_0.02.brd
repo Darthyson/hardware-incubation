@@ -71,6 +71,42 @@
 <layer number="96" name="Values" color="7" fill="1" visible="no" active="no"/>
 <layer number="97" name="Info" color="7" fill="1" visible="no" active="no"/>
 <layer number="98" name="Guide" color="6" fill="1" visible="no" active="no"/>
+<layer number="99" name="SpiceOrder" color="5" fill="1" visible="no" active="no"/>
+<layer number="100" name="Muster" color="7" fill="1" visible="no" active="yes"/>
+<layer number="101" name="Patch_Top" color="7" fill="1" visible="no" active="yes"/>
+<layer number="102" name="bot_pads" color="7" fill="1" visible="no" active="yes"/>
+<layer number="103" name="Stiffner" color="7" fill="1" visible="no" active="yes"/>
+<layer number="104" name="S_DOKU" color="7" fill="1" visible="no" active="yes"/>
+<layer number="105" name="Beschreib" color="7" fill="1" visible="no" active="yes"/>
+<layer number="106" name="BGA-Top" color="7" fill="1" visible="no" active="yes"/>
+<layer number="107" name="BD-Top" color="7" fill="1" visible="no" active="yes"/>
+<layer number="108" name="tBridges" color="7" fill="1" visible="no" active="yes"/>
+<layer number="109" name="tBPL" color="7" fill="1" visible="no" active="yes"/>
+<layer number="110" name="bBPL" color="7" fill="1" visible="no" active="yes"/>
+<layer number="111" name="MPL" color="7" fill="1" visible="no" active="yes"/>
+<layer number="112" name="tSilk" color="7" fill="1" visible="no" active="yes"/>
+<layer number="116" name="Patch_BOT" color="7" fill="1" visible="no" active="yes"/>
+<layer number="121" name="sName" color="7" fill="1" visible="no" active="yes"/>
+<layer number="122" name="_bPlace" color="7" fill="1" visible="no" active="yes"/>
+<layer number="125" name="_tNames" color="7" fill="1" visible="no" active="yes"/>
+<layer number="126" name="_bNames" color="7" fill="1" visible="no" active="yes"/>
+<layer number="127" name="_tValues" color="7" fill="1" visible="no" active="yes"/>
+<layer number="128" name="_bValues" color="7" fill="1" visible="no" active="yes"/>
+<layer number="144" name="Drill_legend" color="7" fill="1" visible="no" active="yes"/>
+<layer number="151" name="HeatSink" color="7" fill="1" visible="no" active="yes"/>
+<layer number="152" name="_bDocu" color="7" fill="1" visible="no" active="yes"/>
+<layer number="199" name="Contour" color="7" fill="1" visible="no" active="yes"/>
+<layer number="200" name="200bmp" color="7" fill="1" visible="no" active="yes"/>
+<layer number="201" name="201bmp" color="7" fill="1" visible="no" active="yes"/>
+<layer number="202" name="202bmp" color="7" fill="1" visible="no" active="yes"/>
+<layer number="203" name="203bmp" color="7" fill="1" visible="no" active="yes"/>
+<layer number="204" name="204bmp" color="7" fill="1" visible="no" active="yes"/>
+<layer number="205" name="205bmp" color="7" fill="1" visible="no" active="yes"/>
+<layer number="248" name="Housing" color="7" fill="1" visible="no" active="yes"/>
+<layer number="249" name="Edge" color="7" fill="1" visible="no" active="yes"/>
+<layer number="250" name="Descript" color="3" fill="1" visible="no" active="no"/>
+<layer number="251" name="SMDround" color="12" fill="11" visible="no" active="no"/>
+<layer number="254" name="OrgLBR" color="7" fill="1" visible="no" active="yes"/>
 </layers>
 <board>
 <plain>
@@ -81,6 +117,12 @@
 <wire x1="5.715" y1="9.525" x2="0" y2="9.525" width="0" layer="20"/>
 <wire x1="0" y1="9.525" x2="0" y2="0" width="0" layer="20"/>
 <wire x1="35" y1="4" x2="35" y2="10" width="0.6096" layer="46"/>
+<text x="31.85" y="11.43" size="1.1" layer="1" font="vector" ratio="12" rot="R180">Top</text>
+<text x="28.04" y="11.43" size="1.1" layer="16" font="vector" ratio="12" rot="MR180">Bottom</text>
+<text x="10.16" y="6.6675" size="0.762" layer="25" font="vector">www.selfbus.org</text>
+<text x="6.5631" y="13.795" size="0.762" layer="25" font="vector" rot="R180" align="bottom-right">Raincenter_MAX232_Adapter V0.02</text>
+<text x="19.3675" y="6.6675" size="0.762" layer="26" font="vector" rot="MR0">www.selfbus.org</text>
+<text x="26.5656" y="13.795" size="0.762" layer="26" font="vector" rot="MR180" align="bottom-right">Raincenter_MAX232_Adapter V0.02</text>
 </plain>
 <libraries>
 <library name="ic-package">
@@ -1475,7 +1517,7 @@ design rules under a new name.</description>
 <element name="IC101" library="ic-package" package="SOCKET-16" value="MAX232ECSE" x="16.51" y="7.62" smashed="yes">
 <attribute name="OC_REICHELT" value="GS 16P" x="16.51" y="7.62" size="1.778" layer="27" display="off"/>
 <attribute name="VALUE" x="28.575" y="2.54" size="1.27" layer="27" ratio="10" rot="R90"/>
-<attribute name="NAME" x="6.477" y="12.954" size="0.8128" layer="25" ratio="10"/>
+<attribute name="NAME" x="12.827" y="5.334" size="0.8128" layer="25" ratio="10"/>
 </element>
 <element name="JP102" library="ic-package" package="SOCKET-16" value="Raincenter" x="16.51" y="5.08" smashed="yes" rot="MR180">
 <attribute name="OC_REICHELT" value="AR 16" x="16.51" y="5.08" size="1.778" layer="28" rot="MR180" display="off"/>

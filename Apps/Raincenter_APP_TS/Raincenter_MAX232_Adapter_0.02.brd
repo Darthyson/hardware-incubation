@@ -53,7 +53,7 @@
 <layer number="43" name="vRestrict" color="2" fill="10" visible="no" active="yes"/>
 <layer number="44" name="Drills" color="7" fill="1" visible="no" active="yes"/>
 <layer number="45" name="Holes" color="7" fill="1" visible="no" active="yes"/>
-<layer number="46" name="Milling" color="3" fill="1" visible="no" active="yes"/>
+<layer number="46" name="Milling" color="3" fill="1" visible="yes" active="yes"/>
 <layer number="47" name="Measures" color="7" fill="1" visible="no" active="yes"/>
 <layer number="48" name="Document" color="7" fill="1" visible="no" active="yes"/>
 <layer number="49" name="Reference" color="7" fill="1" visible="no" active="yes"/>
@@ -72,57 +72,24 @@
 <layer number="97" name="Info" color="7" fill="1" visible="no" active="no"/>
 <layer number="98" name="Guide" color="6" fill="1" visible="no" active="no"/>
 <layer number="99" name="SpiceOrder" color="5" fill="1" visible="no" active="no"/>
-<layer number="100" name="Muster" color="7" fill="1" visible="no" active="yes"/>
-<layer number="101" name="Patch_Top" color="7" fill="1" visible="no" active="yes"/>
-<layer number="102" name="bot_pads" color="7" fill="1" visible="no" active="yes"/>
-<layer number="103" name="Stiffner" color="7" fill="1" visible="no" active="yes"/>
-<layer number="104" name="S_DOKU" color="7" fill="1" visible="no" active="yes"/>
-<layer number="105" name="Beschreib" color="7" fill="1" visible="no" active="yes"/>
-<layer number="106" name="BGA-Top" color="7" fill="1" visible="no" active="yes"/>
-<layer number="107" name="BD-Top" color="7" fill="1" visible="no" active="yes"/>
-<layer number="108" name="tBridges" color="7" fill="1" visible="no" active="yes"/>
-<layer number="109" name="tBPL" color="7" fill="1" visible="no" active="yes"/>
-<layer number="110" name="bBPL" color="7" fill="1" visible="no" active="yes"/>
-<layer number="111" name="MPL" color="7" fill="1" visible="no" active="yes"/>
-<layer number="112" name="tSilk" color="7" fill="1" visible="no" active="yes"/>
-<layer number="116" name="Patch_BOT" color="7" fill="1" visible="no" active="yes"/>
-<layer number="121" name="sName" color="7" fill="1" visible="no" active="yes"/>
-<layer number="122" name="_bPlace" color="7" fill="1" visible="no" active="yes"/>
-<layer number="125" name="_tNames" color="7" fill="1" visible="no" active="yes"/>
-<layer number="126" name="_bNames" color="7" fill="1" visible="no" active="yes"/>
-<layer number="127" name="_tValues" color="7" fill="1" visible="no" active="yes"/>
-<layer number="128" name="_bValues" color="7" fill="1" visible="no" active="yes"/>
-<layer number="144" name="Drill_legend" color="7" fill="1" visible="no" active="yes"/>
-<layer number="151" name="HeatSink" color="7" fill="1" visible="no" active="yes"/>
-<layer number="152" name="_bDocu" color="7" fill="1" visible="no" active="yes"/>
-<layer number="199" name="Contour" color="7" fill="1" visible="no" active="yes"/>
-<layer number="200" name="200bmp" color="7" fill="1" visible="no" active="yes"/>
-<layer number="201" name="201bmp" color="7" fill="1" visible="no" active="yes"/>
-<layer number="202" name="202bmp" color="7" fill="1" visible="no" active="yes"/>
-<layer number="203" name="203bmp" color="7" fill="1" visible="no" active="yes"/>
-<layer number="204" name="204bmp" color="7" fill="1" visible="no" active="yes"/>
-<layer number="205" name="205bmp" color="7" fill="1" visible="no" active="yes"/>
-<layer number="248" name="Housing" color="7" fill="1" visible="no" active="yes"/>
-<layer number="249" name="Edge" color="7" fill="1" visible="no" active="yes"/>
 <layer number="250" name="Descript" color="3" fill="1" visible="no" active="no"/>
 <layer number="251" name="SMDround" color="12" fill="11" visible="no" active="no"/>
-<layer number="254" name="OrgLBR" color="7" fill="1" visible="no" active="yes"/>
 </layers>
 <board>
 <plain>
-<wire x1="0" y1="0" x2="34.905" y2="0" width="0" layer="20"/>
-<wire x1="34.905" y1="0" x2="34.905" y2="14.275" width="0" layer="20"/>
-<wire x1="34.905" y1="14.275" x2="5.715" y2="14.275" width="0" layer="20"/>
-<wire x1="5.715" y1="14.275" x2="5.715" y2="9.525" width="0" layer="20"/>
+<wire x1="0" y1="0" x2="33.635" y2="0" width="0" layer="20"/>
+<wire x1="33.635" y1="0" x2="33.655" y2="13.97" width="0" layer="20"/>
+<wire x1="33.655" y1="13.97" x2="5.715" y2="13.97" width="0" layer="20"/>
+<wire x1="5.715" y1="13.97" x2="5.715" y2="9.525" width="0" layer="20"/>
 <wire x1="5.715" y1="9.525" x2="0" y2="9.525" width="0" layer="20"/>
 <wire x1="0" y1="9.525" x2="0" y2="0" width="0" layer="20"/>
-<wire x1="35" y1="4" x2="35" y2="10" width="0.6096" layer="46"/>
-<text x="31.85" y="11.43" size="1.1" layer="1" font="vector" ratio="12" rot="R180">Top</text>
-<text x="28.04" y="11.43" size="1.1" layer="16" font="vector" ratio="12" rot="MR180">Bottom</text>
+<wire x1="33.73" y1="4" x2="33.73" y2="10" width="2.4" layer="46"/>
+<text x="29.945" y="12.065" size="1.1" layer="1" font="vector" ratio="12" rot="R180">Top</text>
+<text x="26.77" y="12.065" size="1.1" layer="16" font="vector" ratio="12" rot="MR180">Bottom</text>
 <text x="10.16" y="6.6675" size="0.762" layer="25" font="vector">www.selfbus.org</text>
-<text x="6.5631" y="13.795" size="0.762" layer="25" font="vector" rot="R180" align="bottom-right">Raincenter_MAX232_Adapter V0.02</text>
+<text x="6.5631" y="13.4775" size="0.6096" layer="25" font="vector" rot="R180" align="bottom-right">Raincenter_MAX232_Adapter V0.02</text>
 <text x="19.3675" y="6.6675" size="0.762" layer="26" font="vector" rot="MR0">www.selfbus.org</text>
-<text x="26.5656" y="13.795" size="0.762" layer="26" font="vector" rot="MR180" align="bottom-right">Raincenter_MAX232_Adapter V0.02</text>
+<text x="26.5656" y="13.4775" size="0.6096" layer="26" font="vector" rot="MR180" align="bottom-right">Raincenter_MAX232_Adapter V0.02</text>
 </plain>
 <libraries>
 <library name="ic-package">
@@ -1355,7 +1322,7 @@ design rules under a new name.</description>
 <param name="layerSetup" value="(1*16)"/>
 <param name="mtCopper" value="0.035mm 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm"/>
 <param name="mtIsolate" value="1.5mm 0.15mm 0.2mm 0.15mm 0.2mm 0.15mm 0.2mm 0.15mm 0.2mm 0.15mm 0.2mm 0.15mm 0.2mm 0.15mm 0.2mm"/>
-<param name="mdWireWire" value="0.1mm"/>
+<param name="mdWireWire" value="0.15mm"/>
 <param name="mdWirePad" value="0.1mm"/>
 <param name="mdWireVia" value="0.1mm"/>
 <param name="mdPadPad" value="0.1mm"/>
@@ -1516,33 +1483,33 @@ design rules under a new name.</description>
 <elements>
 <element name="IC101" library="ic-package" package="SOCKET-16" value="MAX232ECSE" x="16.51" y="7.62" smashed="yes">
 <attribute name="OC_REICHELT" value="GS 16P" x="16.51" y="7.62" size="1.778" layer="27" display="off"/>
-<attribute name="VALUE" x="28.575" y="2.54" size="1.27" layer="27" ratio="10" rot="R90"/>
+<attribute name="VALUE" x="10.795" y="6.35" size="1.27" layer="27" ratio="10"/>
 <attribute name="NAME" x="12.827" y="5.334" size="0.8128" layer="25" ratio="10"/>
 </element>
 <element name="JP102" library="ic-package" package="SOCKET-16" value="Raincenter" x="16.51" y="5.08" smashed="yes" rot="MR180">
 <attribute name="OC_REICHELT" value="AR 16" x="16.51" y="5.08" size="1.778" layer="28" rot="MR180" display="off"/>
 <attribute name="MF" value="ASSMANN" x="16.51" y="5.08" size="1.778" layer="28" rot="MR180" display="off"/>
 <attribute name="MPN" value="AR-16-ST/T" x="16.51" y="5.08" size="1.778" layer="28" rot="MR180" display="off"/>
-<attribute name="VALUE" x="27.305" y="0" size="1.27" layer="28" ratio="10" rot="MR90"/>
+<attribute name="VALUE" x="20.955" y="5.08" size="1.27" layer="28" ratio="10" rot="MR0"/>
 <attribute name="NAME" x="14.8895" y="6.1435" size="0.8128" layer="26" ratio="10" rot="MR180"/>
 </element>
 <element name="C102" library="rcl" package="E2,5-6" value="1µF/100V" x="3.175" y="6.35" smashed="yes" rot="R180">
 <attribute name="OC_REICHELT" value="RAD 105 1,0/100" x="3.175" y="6.35" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="NAME" x="4.318" y="8.3185" size="0.8128" layer="25" ratio="10" rot="R180"/>
-<attribute name="VALUE" x="0.508" y="9.017" size="1.27" layer="27" ratio="10" rot="R180"/>
+<attribute name="VALUE" x="4.953" y="10.922" size="1.27" layer="27" ratio="10" rot="R180"/>
 </element>
 <element name="C101" library="rcl" package="C025-024X044" value="100nF/50V" x="3.175" y="1.905" smashed="yes" rot="R180">
 <attribute name="MN" value="Murata" x="3.175" y="1.905" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="OC_REICHELT" value="X7R-2,5 100N" x="3.175" y="1.905" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="NAME" x="6.223" y="0.762" size="0.8128" layer="25" ratio="10" rot="R90"/>
-<attribute name="VALUE" x="4.953" y="4.572" size="1.27" layer="27" ratio="10" rot="R180"/>
+<attribute name="VALUE" x="4.953" y="-0.508" size="1.27" layer="27" ratio="10" rot="R180"/>
 </element>
 <element name="JP101" library="Klemmen" package="255-401-5" value="256-101" x="33.02" y="6.35" smashed="yes">
 <attribute name="MN" value="WAGO" x="33.02" y="6.35" size="1.778" layer="27" display="off"/>
 <attribute name="CONRAD" value="1x730366 + 1x730378" x="33.02" y="6.35" size="1.778" layer="27" display="off"/>
 <attribute name="MPN" value="1x 256-101 + 1x 256-100" x="33.02" y="6.35" size="1.778" layer="27" display="off"/>
-<attribute name="NAME" x="33.485" y="8.495" size="1.27" layer="25" rot="R90"/>
-<attribute name="VALUE" x="36.92" y="0.6" size="1.27" layer="27" rot="R90"/>
+<attribute name="NAME" x="32.85" y="7.86" size="1.27" layer="25" rot="R90"/>
+<attribute name="VALUE" x="35.65" y="3.775" size="1.27" layer="27" rot="R90"/>
 </element>
 </elements>
 <signals>
@@ -1587,7 +1554,7 @@ design rules under a new name.</description>
 <contactref element="JP102" pad="10"/>
 <contactref element="JP101" pad="A1"/>
 <contactref element="JP101" pad="B1"/>
-<wire x1="30.52" y1="6.35" x2="30.52" y2="1.35" width="0.6096" layer="16"/>
+<wire x1="30.52" y1="6.35" x2="30.52" y2="1.35" width="2.54" layer="16"/>
 <wire x1="22.86" y1="3.81" x2="22.86" y2="5.08" width="0.6096" layer="16"/>
 <wire x1="22.86" y1="5.08" x2="24.13" y2="6.35" width="0.6096" layer="16"/>
 <wire x1="24.13" y1="6.35" x2="30.52" y2="6.35" width="0.6096" layer="16"/>
@@ -1595,7 +1562,7 @@ design rules under a new name.</description>
 <wire x1="22.86" y1="1.27" x2="22.86" y2="5.08" width="0.6096" layer="1"/>
 <wire x1="22.86" y1="5.08" x2="24.13" y2="6.35" width="0.6096" layer="1"/>
 <wire x1="24.13" y1="6.35" x2="30.48" y2="6.35" width="0.6096" layer="1"/>
-<wire x1="30.48" y1="6.35" x2="30.48" y2="1.27" width="0.6096" layer="1"/>
+<wire x1="30.48" y1="6.35" x2="30.48" y2="1.27" width="2.54" layer="1"/>
 </signal>
 <signal name="P8">
 <contactref element="IC101" pad="8"/>
@@ -1661,8 +1628,8 @@ design rules under a new name.</description>
 <contactref element="C101" pad="2"/>
 <polygon width="0.6096" layer="16" spacing="0.4064" isolate="0.4064">
 <vertex x="0" y="0"/>
-<vertex x="34.925" y="0"/>
-<vertex x="34.925" y="14.605"/>
+<vertex x="33.655" y="0"/>
+<vertex x="33.655" y="14.605"/>
 <vertex x="5.715" y="14.605"/>
 <vertex x="5.715" y="9.525"/>
 <vertex x="0" y="9.525"/>
@@ -1670,14 +1637,18 @@ design rules under a new name.</description>
 <contactref element="JP102" pad="1"/>
 <polygon width="0.6096" layer="1" spacing="0.4064" isolate="0.4064">
 <vertex x="0" y="0"/>
-<vertex x="34.925" y="0"/>
-<vertex x="34.925" y="14.605"/>
+<vertex x="33.655" y="0"/>
+<vertex x="33.655" y="14.605"/>
 <vertex x="5.715" y="14.605"/>
 <vertex x="5.715" y="9.525"/>
 <vertex x="0" y="9.525"/>
 </polygon>
 </signal>
 </signals>
+<errors>
+<approved hash="4,1,b867d38a7fefd3fb"/>
+<approved hash="4,16,031547d588d907ea"/>
+</errors>
 </board>
 </drawing>
 </eagle>
